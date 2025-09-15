@@ -225,6 +225,15 @@
 })();
 </script>
 
+<script>
+  // เขียนคุกกี้ทดสอบทุกหมวดให้ OneTrust เห็นทันที
+  document.cookie = "test_cookie_necessary=1; path=/; SameSite=Lax;";
+  document.cookie = "test_cookie_performance=1; path=/; SameSite=Lax;";
+  document.cookie = "test_cookie_functional=1; path=/; SameSite=Lax;";
+  document.cookie = "test_cookie_targeting=1; path=/; SameSite=Lax;";
+  document.cookie = "test_cookie_social=1; path=/; SameSite=Lax;";
+</script>
+
   
 </body>
 </html>
